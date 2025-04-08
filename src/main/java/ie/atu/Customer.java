@@ -2,7 +2,7 @@ package ie.atu;
 
 import java.util.Scanner;
 
-public class Customer {
+public class Customer implements Main {
 
     String First_name;
 
@@ -19,9 +19,12 @@ public class Customer {
         Address = address;
     }
 
+
+
     public String getFirst_name() {
         return First_name;
     }
+    assertEquals(First_name, > 3);
 
     public void setFirst_name(String first_name) {
         First_name = first_name;
@@ -30,7 +33,7 @@ public class Customer {
     public String getLast_name() {
         return Last_name;
     }
-
+    assertEquals(Last_name, > 3);
     public void setLast_name(String last_name) {
         Last_name = last_name;
     }
@@ -38,6 +41,7 @@ public class Customer {
     public String getCustomerID() {
         return CustomerID;
     }
+    assertEquals(CustomerID,8<12);
 
     public void setCustomerID(String customerID) {
         CustomerID = customerID;
@@ -46,7 +50,7 @@ public class Customer {
     public String getAddress() {
         return Address;
     }
-
+    assertEquals(Address,10>40);
     public void setAddress(String address) {
         Address = address;
     }
